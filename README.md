@@ -60,25 +60,25 @@ jupyter notebook Kaggle_image-generation-with-pre-trained-models.ipynb
 4. **Experiment** - Modify model parameters for custom effects
 
 
-## 🏗️ Model Architecture
-- Model Used: Stable Diffusion (latent diffusion model for text-to-image synthesis)
-- Framework: PyTorch and Hugging Face Diffusers
-- Resolution: 512x512 pixels
-- Pipeline: Text prompt tokenization → Latent diffusion → Image decoding
-- Sampling Steps: Adjustable number of diffusion steps for quality-speed tradeoff
+## 🏗️ Model Details
+- **Model Used**: Stable Diffusion (latent diffusion model for text-to-image synthesis)
+- **Framework**: PyTorch and Hugging Face Diffusers
+- **Resolution**: 512x512 pixels
+- **Pipeline**: Text prompt tokenization → Latent diffusion → Image decoding
+- **Sampling Steps**: Adjustable number of diffusion steps for quality-speed tradeoff
 
 ## 📈 Results
 - The model generates images that reflect the input prompt creatively and with fine detail. Examples include landscapes, objects, and imaginative scenes generated from simple text descriptions 
 
 ## 🔬 How It Works
 
-- Text Encoding: The input prompt is tokenized and encoded using a pre-trained text encoder.
+- **Text Encoding**: The input prompt is tokenized and encoded using a pre-trained text encoder.
 
-- Latent Diffusion: The encoded text conditions the denoising diffusion process to generate latent representations.
+- **Latent Diffusion**: The encoded text conditions the denoising diffusion process to generate latent representations.
 
-- Decoding: The latent representation is decoded back into a high-resolution image.
+- **Decoding**: The latent representation is decoded back into a high-resolution image.
 
-- Sampling: The process is iterative, gradually refining noise into a coherent image.
+- **Sampling**: The process is iterative, gradually refining noise into a coherent image.
 
 ## 🔧 Customization
 
