@@ -1,5 +1,6 @@
 # 🖼️ Image Generation with Pre-trained Models
 
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KritikMahesh/PRODIGY_GA_02/blob/main/Image_Generation_with_Pre_trained_Models.ipynb)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-orange.svg)](https://pytorch.org/)
